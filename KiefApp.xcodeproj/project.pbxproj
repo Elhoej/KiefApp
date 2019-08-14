@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC103B7C1EEB10F500B6C676 /* HeaderContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B7B1EEB10F500B6C676 /* HeaderContainerView.swift */; };
+		AC1956A71EE66AE5007D60C5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1956A61EE66AE5007D60C5 /* Activity.swift */; };
+		AC3445161F0FAF9C000EB75A /* ActivityHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3445151F0FAF9C000EB75A /* ActivityHistoryCell.swift */; };
+		AC44ABDE1F1C7577002ECB07 /* ForumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44ABDD1F1C7577002ECB07 /* ForumController.swift */; };
+		AC47D9C11ED71975008025EC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47D9C01ED71975008025EC /* User.swift */; };
+		AC47D9C31ED75827008025EC /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47D9C21ED75827008025EC /* ChatLogController.swift */; };
+		AC6CF8D71EE52C100039B1D1 /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CF8D61EE52C100039B1D1 /* ChatInputContainerView.swift */; };
+		AC8431111EA341C2007302C0 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8431101EA341C2007302C0 /* MainTabBarController.swift */; };
+		AC8DD0531EA1F53E0003C21E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8DD0521EA1F53E0003C21E /* Extensions.swift */; };
+		ACAB9F2A1EA1E03800E0F702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAB9F291EA1E03800E0F702 /* AppDelegate.swift */; };
+		ACAB9F2F1EA1E03800E0F702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAB9F2D1EA1E03800E0F702 /* Main.storyboard */; };
+		ACAB9F311EA1E03800E0F702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAB9F301EA1E03800E0F702 /* Assets.xcassets */; };
+		ACAB9F341EA1E03800E0F702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAB9F321EA1E03800E0F702 /* LaunchScreen.storyboard */; };
+		ACAB9F3F1EA1E03800E0F702 /* KiefAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAB9F3E1EA1E03800E0F702 /* KiefAppTests.swift */; };
+		ACB5CA601EF7BE4600D3CEAD /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5CA5F1EF7BE4600D3CEAD /* NoteView.swift */; };
+		ACBB35E51F0BBC2300EEAA84 /* BebasNeue Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ACBB35E41F0BBC2300EEAA84 /* BebasNeue Regular.otf */; };
+		ACBB35E71F0BC32A00EEAA84 /* BebasNeue Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = ACBB35E61F0BC32A00EEAA84 /* BebasNeue Book.otf */; };
+		ACBE49E01F075F0F00BAC8EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACBE49DF1F075F0F00BAC8EB /* GoogleService-Info.plist */; };
+		ACCAC8531EB1E47E0037F80C /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCAC8521EB1E47E0037F80C /* EditProfile.swift */; };
+		ACCB012E1EEC209E0031BF7C /* OpenShabazzPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB012D1EEC209E0031BF7C /* OpenShabazzPopover.swift */; };
+		ACCE79E31ED87B12002CA45B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE79E21ED87B12002CA45B /* Message.swift */; };
+		ACCF630C1F0A810200865884 /* CogwheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF630B1F0A810200865884 /* CogwheelView.swift */; };
+		ACCF630E1F0A94FB00865884 /* MemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF630D1F0A94FA00865884 /* MemberList.swift */; };
+		ACCF63111F0A9C9000865884 /* MemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF63101F0A9C9000865884 /* MemberCell.swift */; };
+		ACCF63131F0AC08300865884 /* MemberProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF63121F0AC08200865884 /* MemberProfile.swift */; };
+		ACCF83161EE7C94E00654D26 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF83151EE7C94E00654D26 /* ActivityCell.swift */; };
+		ACD5AAD81EAF84C900E819F9 /* StatusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5AAD71EAF84C900E819F9 /* StatusController.swift */; };
+		ACE231441ED6B00800840072 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE231431ED6B00800840072 /* ChatController.swift */; };
+		ACE8F3151F0CAC82008AD03B /* Graduate-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE8F3141F0CAC82008AD03B /* Graduate-Regular.ttf */; };
+		ACE970021EDAE8E900165BE0 /* NewChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE970011EDAE8E900165BE0 /* NewChatController.swift */; };
+		ACE970051EDAF4D100165BE0 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE970041EDAF4D100165BE0 /* UserCell.swift */; };
+		ACE970071EDB06FF00165BE0 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE970061EDB06FF00165BE0 /* ChatMessageCell.swift */; };
+		ACF903041EADC5E700E52344 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF903031EADC5E700E52344 /* UserProfile.swift */; };
+		ACF903071EADC61800E52344 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF903051EADC61800E52344 /* LoginController.swift */; };
+		ACF903081EADC61800E52344 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF903061EADC61800E52344 /* SignUpController.swift */; };
+		C0C11E11497094FA51D797C7 /* Pods_KiefApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803688FC393A2A622243E768 /* Pods_KiefApp.framework */; };
+		DABFCE3AA6E43F31EE90BAF6 /* Pods_KiefAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E548198814AD5E4D8D6628 /* Pods_KiefAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAB9F3B1EA1E03800E0F702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAB9F1E1EA1E03700E0F702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAB9F251EA1E03700E0F702;
+			remoteInfo = KiefApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A0BAE5ED83E33257180435 /* Pods-KiefApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiefApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiefApp/Pods-KiefApp.release.xcconfig"; sourceTree = "<group>"; };
+		46E548198814AD5E4D8D6628 /* Pods_KiefAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiefAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA73B19CAC0B28A2654C7BB /* Pods-KiefApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiefApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiefApp/Pods-KiefApp.debug.xcconfig"; sourceTree = "<group>"; };
+		803688FC393A2A622243E768 /* Pods_KiefApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiefApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC103B7B1EEB10F500B6C676 /* HeaderContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderContainerView.swift; sourceTree = "<group>"; };
+		AC1956A61EE66AE5007D60C5 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		AC3445151F0FAF9C000EB75A /* ActivityHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityHistoryCell.swift; sourceTree = "<group>"; };
+		AC44ABDD1F1C7577002ECB07 /* ForumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumController.swift; sourceTree = "<group>"; };
+		AC47D9C01ED71975008025EC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AC47D9C21ED75827008025EC /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		AC6CF8D61EE52C100039B1D1 /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		AC8431101EA341C2007302C0 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		AC8DD0521EA1F53E0003C21E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ACAB9F261EA1E03700E0F702 /* KiefApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiefApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAB9F291EA1E03800E0F702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACAB9F2E1EA1E03800E0F702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACAB9F301EA1E03800E0F702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAB9F331EA1E03800E0F702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACAB9F351EA1E03800E0F702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAB9F3A1EA1E03800E0F702 /* KiefAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiefAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAB9F3E1EA1E03800E0F702 /* KiefAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiefAppTests.swift; sourceTree = "<group>"; };
+		ACAB9F401EA1E03800E0F702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB5CA5F1EF7BE4600D3CEAD /* NoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		ACBB35E41F0BBC2300EEAA84 /* BebasNeue Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Regular.otf"; sourceTree = "<group>"; };
+		ACBB35E61F0BC32A00EEAA84 /* BebasNeue Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Book.otf"; sourceTree = "<group>"; };
+		ACBE49DE1F0750EB00BAC8EB /* KiefApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KiefApp.entitlements; sourceTree = "<group>"; };
+		ACBE49DF1F075F0F00BAC8EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACCAC8521EB1E47E0037F80C /* EditProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		ACCB012D1EEC209E0031BF7C /* OpenShabazzPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenShabazzPopover.swift; sourceTree = "<group>"; };
+		ACCE79E21ED87B12002CA45B /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		ACCF630B1F0A810200865884 /* CogwheelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CogwheelView.swift; sourceTree = "<group>"; };
+		ACCF630D1F0A94FA00865884 /* MemberList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberList.swift; sourceTree = "<group>"; };
+		ACCF63101F0A9C9000865884 /* MemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberCell.swift; sourceTree = "<group>"; };
+		ACCF63121F0AC08200865884 /* MemberProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberProfile.swift; sourceTree = "<group>"; };
+		ACCF83151EE7C94E00654D26 /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		ACD5AAD71EAF84C900E819F9 /* StatusController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusController.swift; sourceTree = "<group>"; };
+		ACE231431ED6B00800840072 /* ChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		ACE8F3141F0CAC82008AD03B /* Graduate-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graduate-Regular.ttf"; sourceTree = "<group>"; };
+		ACE970011EDAE8E900165BE0 /* NewChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatController.swift; sourceTree = "<group>"; };
+		ACE970041EDAF4D100165BE0 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		ACE970061EDB06FF00165BE0 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		ACF903031EADC5E700E52344 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		ACF903051EADC61800E52344 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		ACF903061EADC61800E52344 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		CF8C9D3393E9635F78FEC083 /* Pods-KiefAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiefAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiefAppTests/Pods-KiefAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D14DAD08ED85D9DBE3871F35 /* Pods-KiefAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiefAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiefAppTests/Pods-KiefAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAB9F231EA1E03700E0F702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C11E11497094FA51D797C7 /* Pods_KiefApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAB9F371EA1E03800E0F702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFCE3AA6E43F31EE90BAF6 /* Pods_KiefAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346126280C8C50FB335E9E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				803688FC393A2A622243E768 /* Pods_KiefApp.framework */,
+				46E548198814AD5E4D8D6628 /* Pods_KiefAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC1956A81EE69CD7007D60C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACE231431ED6B00800840072 /* ChatController.swift */,
+				ACE970011EDAE8E900165BE0 /* NewChatController.swift */,
+				AC47D9C21ED75827008025EC /* ChatLogController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AC2F6A821EA7ADCC00E490CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ACF903051EADC61800E52344 /* LoginController.swift */,
+				ACF903061EADC61800E52344 /* SignUpController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		AC44ABDC1F1C7534002ECB07 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				AC44ABDD1F1C7577002ECB07 /* ForumController.swift */,
+			);
+			name = Forum;
+			sourceTree = "<group>";
+		};
+		AC47D9BF1ED7193F008025EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC47D9C01ED71975008025EC /* User.swift */,
+				ACCE79E21ED87B12002CA45B /* Message.swift */,
+				AC1956A61EE66AE5007D60C5 /* Activity.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AC58BAE31EA39C14008E1EA1 /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF630F1F0A9C5400865884 /* Views */,
+				ACCAC8521EB1E47E0037F80C /* EditProfile.swift */,
+				ACCF63121F0AC08200865884 /* MemberProfile.swift */,
+				ACCF630D1F0A94FA00865884 /* MemberList.swift */,
+			);
+			name = "User Profile";
+			sourceTree = "<group>";
+		};
+		AC8DD0511EA1F4D10003C21E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC8DD0521EA1F53E0003C21E /* Extensions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		ACAB9F1D1EA1E03700E0F702 = {
+			isa = PBXGroup;
+			children = (
+				ACAB9F281EA1E03700E0F702 /* KiefApp */,
+				ACAB9F3D1EA1E03800E0F702 /* KiefAppTests */,
+				ACAB9F271EA1E03700E0F702 /* Products */,
+				EC518F3D0F558388D78036EB /* Pods */,
+				346126280C8C50FB335E9E31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAB9F271EA1E03700E0F702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAB9F261EA1E03700E0F702 /* KiefApp.app */,
+				ACAB9F3A1EA1E03800E0F702 /* KiefAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAB9F281EA1E03700E0F702 /* KiefApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE49DE1F0750EB00BAC8EB /* KiefApp.entitlements */,
+				AC47D9BF1ED7193F008025EC /* Model */,
+				AC2F6A821EA7ADCC00E490CF /* Login */,
+				AC58BAE31EA39C14008E1EA1 /* User Profile */,
+				ACD5AAD61EAF848100E819F9 /* Status */,
+				ACE231421ED6AFB400840072 /* Chat */,
+				AC44ABDC1F1C7534002ECB07 /* Forum */,
+				AC8DD0511EA1F4D10003C21E /* Utils */,
+				ACAB9F291EA1E03800E0F702 /* AppDelegate.swift */,
+				AC8431101EA341C2007302C0 /* MainTabBarController.swift */,
+				ACAB9F2D1EA1E03800E0F702 /* Main.storyboard */,
+				ACAB9F301EA1E03800E0F702 /* Assets.xcassets */,
+				ACE8F3161F0CAC97008AD03B /* Fonts */,
+				ACAB9F321EA1E03800E0F702 /* LaunchScreen.storyboard */,
+				ACAB9F351EA1E03800E0F702 /* Info.plist */,
+				ACBE49DF1F075F0F00BAC8EB /* GoogleService-Info.plist */,
+			);
+			path = KiefApp;
+			sourceTree = "<group>";
+		};
+		ACAB9F3D1EA1E03800E0F702 /* KiefAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAB9F3E1EA1E03800E0F702 /* KiefAppTests.swift */,
+				ACAB9F401EA1E03800E0F702 /* Info.plist */,
+			);
+			path = KiefAppTests;
+			sourceTree = "<group>";
+		};
+		ACCF630F1F0A9C5400865884 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF630B1F0A810200865884 /* CogwheelView.swift */,
+				ACF903031EADC5E700E52344 /* UserProfile.swift */,
+				ACCF63101F0A9C9000865884 /* MemberCell.swift */,
+				AC3445151F0FAF9C000EB75A /* ActivityHistoryCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ACD5AAD61EAF848100E819F9 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				ACF34D841EED032A006A7DE3 /* Views */,
+				ACD5AAD71EAF84C900E819F9 /* StatusController.swift */,
+			);
+			name = Status;
+			sourceTree = "<group>";
+		};
+		ACE231421ED6AFB400840072 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				ACE970031EDAF4C000165BE0 /* Views */,
+				AC1956A81EE69CD7007D60C5 /* Controllers */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		ACE8F3161F0CAC97008AD03B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ACBB35E41F0BBC2300EEAA84 /* BebasNeue Regular.otf */,
+				ACBB35E61F0BC32A00EEAA84 /* BebasNeue Book.otf */,
+				ACE8F3141F0CAC82008AD03B /* Graduate-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		ACE970031EDAF4C000165BE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACE970041EDAF4D100165BE0 /* UserCell.swift */,
+				ACE970061EDB06FF00165BE0 /* ChatMessageCell.swift */,
+				AC6CF8D61EE52C100039B1D1 /* ChatInputContainerView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ACF34D841EED032A006A7DE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB012D1EEC209E0031BF7C /* OpenShabazzPopover.swift */,
+				ACB5CA5F1EF7BE4600D3CEAD /* NoteView.swift */,
+				ACCF83151EE7C94E00654D26 /* ActivityCell.swift */,
+				AC103B7B1EEB10F500B6C676 /* HeaderContainerView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EC518F3D0F558388D78036EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DA73B19CAC0B28A2654C7BB /* Pods-KiefApp.debug.xcconfig */,
+				03A0BAE5ED83E33257180435 /* Pods-KiefApp.release.xcconfig */,
+				D14DAD08ED85D9DBE3871F35 /* Pods-KiefAppTests.debug.xcconfig */,
+				CF8C9D3393E9635F78FEC083 /* Pods-KiefAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAB9F251EA1E03700E0F702 /* KiefApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAB9F431EA1E03800E0F702 /* Build configuration list for PBXNativeTarget "KiefApp" */;
+			buildPhases = (
+				0910EDFD49A575EC042E3E5E /* [CP] Check Pods Manifest.lock */,
+				ACAB9F221EA1E03700E0F702 /* Sources */,
+				ACAB9F231EA1E03700E0F702 /* Frameworks */,
+				ACAB9F241EA1E03700E0F702 /* Resources */,
+				8BCC06183EF90A5C2DBACBF2 /* [CP] Embed Pods Frameworks */,
+				124B2CC338E60F48CC585AAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiefApp;
+			productName = KiefApp;
+			productReference = ACAB9F261EA1E03700E0F702 /* KiefApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAB9F391EA1E03800E0F702 /* KiefAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAB9F461EA1E03800E0F702 /* Build configuration list for PBXNativeTarget "KiefAppTests" */;
+			buildPhases = (
+				046BDEA596215BB63AD1C801 /* [CP] Check Pods Manifest.lock */,
+				ACAB9F361EA1E03800E0F702 /* Sources */,
+				ACAB9F371EA1E03800E0F702 /* Frameworks */,
+				ACAB9F381EA1E03800E0F702 /* Resources */,
+				B19BCACDB45F8A55283F5BE4 /* [CP] Embed Pods Frameworks */,
+				511195BEF68126E9BEF9957E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAB9F3C1EA1E03800E0F702 /* PBXTargetDependency */,
+			);
+			name = KiefAppTests;
+			productName = KiefAppTests;
+			productReference = ACAB9F3A1EA1E03800E0F702 /* KiefAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAB9F1E1EA1E03700E0F702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Simon Elhoej Steinmejer";
+				TargetAttributes = {
+					ACAB9F251EA1E03700E0F702 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = SPRLQ9JET8;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					ACAB9F391EA1E03800E0F702 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACAB9F251EA1E03700E0F702;
+					};
+				};
+			};
+			buildConfigurationList = ACAB9F211EA1E03700E0F702 /* Build configuration list for PBXProject "KiefApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAB9F1D1EA1E03700E0F702;
+			productRefGroup = ACAB9F271EA1E03700E0F702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAB9F251EA1E03700E0F702 /* KiefApp */,
+				ACAB9F391EA1E03800E0F702 /* KiefAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAB9F241EA1E03700E0F702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE8F3151F0CAC82008AD03B /* Graduate-Regular.ttf in Resources */,
+				ACBB35E71F0BC32A00EEAA84 /* BebasNeue Book.otf in Resources */,
+				ACBE49E01F075F0F00BAC8EB /* GoogleService-Info.plist in Resources */,
+				ACBB35E51F0BBC2300EEAA84 /* BebasNeue Regular.otf in Resources */,
+				ACAB9F341EA1E03800E0F702 /* LaunchScreen.storyboard in Resources */,
+				ACAB9F311EA1E03800E0F702 /* Assets.xcassets in Resources */,
+				ACAB9F2F1EA1E03800E0F702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAB9F381EA1E03800E0F702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046BDEA596215BB63AD1C801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0910EDFD49A575EC042E3E5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		124B2CC338E60F48CC585AAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiefApp/Pods-KiefApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511195BEF68126E9BEF9957E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiefAppTests/Pods-KiefAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BCC06183EF90A5C2DBACBF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiefApp/Pods-KiefApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19BCACDB45F8A55283F5BE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiefAppTests/Pods-KiefAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAB9F221EA1E03700E0F702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCF630C1F0A810200865884 /* CogwheelView.swift in Sources */,
+				AC1956A71EE66AE5007D60C5 /* Activity.swift in Sources */,
+				AC8DD0531EA1F53E0003C21E /* Extensions.swift in Sources */,
+				ACE970021EDAE8E900165BE0 /* NewChatController.swift in Sources */,
+				ACB5CA601EF7BE4600D3CEAD /* NoteView.swift in Sources */,
+				ACCF63131F0AC08300865884 /* MemberProfile.swift in Sources */,
+				ACF903041EADC5E700E52344 /* UserProfile.swift in Sources */,
+				ACCF83161EE7C94E00654D26 /* ActivityCell.swift in Sources */,
+				ACCF630E1F0A94FB00865884 /* MemberList.swift in Sources */,
+				ACF903081EADC61800E52344 /* SignUpController.swift in Sources */,
+				AC103B7C1EEB10F500B6C676 /* HeaderContainerView.swift in Sources */,
+				ACCAC8531EB1E47E0037F80C /* EditProfile.swift in Sources */,
+				AC44ABDE1F1C7577002ECB07 /* ForumController.swift in Sources */,
+				AC6CF8D71EE52C100039B1D1 /* ChatInputContainerView.swift in Sources */,
+				ACD5AAD81EAF84C900E819F9 /* StatusController.swift in Sources */,
+				ACE970071EDB06FF00165BE0 /* ChatMessageCell.swift in Sources */,
+				ACCB012E1EEC209E0031BF7C /* OpenShabazzPopover.swift in Sources */,
+				ACE970051EDAF4D100165BE0 /* UserCell.swift in Sources */,
+				AC47D9C31ED75827008025EC /* ChatLogController.swift in Sources */,
+				AC8431111EA341C2007302C0 /* MainTabBarController.swift in Sources */,
+				AC3445161F0FAF9C000EB75A /* ActivityHistoryCell.swift in Sources */,
+				ACE231441ED6B00800840072 /* ChatController.swift in Sources */,
+				ACCF63111F0A9C9000865884 /* MemberCell.swift in Sources */,
+				ACAB9F2A1EA1E03800E0F702 /* AppDelegate.swift in Sources */,
+				ACCE79E31ED87B12002CA45B /* Message.swift in Sources */,
+				AC47D9C11ED71975008025EC /* User.swift in Sources */,
+				ACF903071EADC61800E52344 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAB9F361EA1E03800E0F702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAB9F3F1EA1E03800E0F702 /* KiefAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAB9F3C1EA1E03800E0F702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAB9F251EA1E03700E0F702 /* KiefApp */;
+			targetProxy = ACAB9F3B1EA1E03800E0F702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAB9F2D1EA1E03800E0F702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAB9F2E1EA1E03800E0F702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACAB9F321EA1E03800E0F702 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAB9F331EA1E03800E0F702 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAB9F411EA1E03800E0F702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACAB9F421EA1E03800E0F702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAB9F441EA1E03800E0F702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA73B19CAC0B28A2654C7BB /* Pods-KiefApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KiefApp/KiefApp.entitlements;
+				DEVELOPMENT_TEAM = SPRLQ9JET8;
+				INFOPLIST_FILE = KiefApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Simon.elhoej.KiefApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACAB9F451EA1E03800E0F702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A0BAE5ED83E33257180435 /* Pods-KiefApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KiefApp/KiefApp.entitlements;
+				DEVELOPMENT_TEAM = SPRLQ9JET8;
+				INFOPLIST_FILE = KiefApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Simon.elhoej.KiefApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ACAB9F471EA1E03800E0F702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14DAD08ED85D9DBE3871F35 /* Pods-KiefAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KiefAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Simon.KiefAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiefApp.app/KiefApp";
+			};
+			name = Debug;
+		};
+		ACAB9F481EA1E03800E0F702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8C9D3393E9635F78FEC083 /* Pods-KiefAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KiefAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Simon.KiefAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiefApp.app/KiefApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAB9F211EA1E03700E0F702 /* Build configuration list for PBXProject "KiefApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAB9F411EA1E03800E0F702 /* Debug */,
+				ACAB9F421EA1E03800E0F702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAB9F431EA1E03800E0F702 /* Build configuration list for PBXNativeTarget "KiefApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAB9F441EA1E03800E0F702 /* Debug */,
+				ACAB9F451EA1E03800E0F702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAB9F461EA1E03800E0F702 /* Build configuration list for PBXNativeTarget "KiefAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAB9F471EA1E03800E0F702 /* Debug */,
+				ACAB9F481EA1E03800E0F702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAB9F1E1EA1E03700E0F702 /* Project object */;
+}
